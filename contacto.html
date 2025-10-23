@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class = "navegador">
+        <div class = "item_navegador"><a href="index.html">Inicio</a></div>
+        <div class = "item_navegador"><a href="servicios.html">Servicios</a></div>
+        <div class = "item_navegador"><a href="portafolio.html">Portafolio</a></div>
+        <div class = "item_navegador"><a href="nosotros.html">Nosotros</a></div>
+        <div class = "item_navegador"><a href="contacto.html">Contacto</a></div>
+    </nav>
+    <header>
+        <h1>Contacto</h1>
+        <p>Registrate para poder contactarte con nosotros</p>
+    </header>
+    <main>
+            <div class="forms_item">
+                <label for="usuario">Nombre de usuario:</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Escribe tu usuario" required>
+            </div>
+            <div class="forms_item">
+                <label for="clave">Contraseña:</label>
+                <input type="password" id="clave" name="clave" pattern=".{6,12}" placeholder="Ingrese contraseña" required>
+            </div>
+            <div class="forms_item">
+                <label for="confirmarClave">Confirmar contraseña:</label>
+                <input type="password" id="confirmarClave" name="confirmarClave" pattern=".{6,12}" placeholder="Ingrese contraseña de nuevo" required>
+            </div>
+            <div class="forms_item">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Escribe tu gmail" required>
+            </div>
+            <div class="forms_item">
+                <label for="pais">Selecciona tu país:</label>
+                <select id="pais" name="pais">
+                    <option>Selecciona tu país</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="canada">Canadá</option>
+                    <option value="chile">Chile</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="costa_rica">Costa Rica</option>
+                    <option value="cuba">Cuba</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="el_salvador">El Salvador</option>
+                    <option value="españa">España</option>
+                    <option value="estados_unidos">Estados Unidos</option>
+                    <option value="guatemala">Guatemala</option>
+                    <option value="honduras">Honduras</option>
+                    <option value="mexico">México</option>
+                    <option value="nicaragua">Nicaragua</option>
+                    <option value="panama">Panamá</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="peru">Perú</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="venezuela">Venezuela</option>
+                    <option value="otros">Otros</option>
+                </select>
+            </div>
+    </main>
+    <footer>&copy 2025 Lixus</footer>
+</body>
+</html>
